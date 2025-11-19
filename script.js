@@ -31,7 +31,7 @@ function drawMatrix() {
 const introCountdown = ["3", "2", "1"];
 const messages = [
     "Congratulations \n graduation!!",
-    "Phải thật thành công\n Nhé><,
+    "Phải thật thành công\n Nhé><",
 ];
 const allMessages = [...introCountdown, ...messages];
 const introFontSizes = { "3": 200, "2": 240, "1": 280 };
@@ -407,6 +407,7 @@ var ParticlePool = (function () {
         render();
     }, 10);
 })(document.getElementById('pinkboard'));
+
 
 
 
